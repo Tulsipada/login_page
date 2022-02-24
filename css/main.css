@@ -53,7 +53,8 @@ body{
   .body-container{
       display: flex;
       height: auto;
-      margin: 10px;
+      margin: 5px;
+      margin-top: 30px;
       gap: 10px;
       
       /* border: 5px solid red; */
@@ -69,7 +70,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    gap: 2px;
+
 
 
 }
@@ -90,16 +91,26 @@ body{
     width: 500px;
     
 }
+.money{
+    text-align: center;
+}
+.money-btn{
+    cursor:text;
+    padding: 10px 70px;
+}
+.money-invest{
+    text-align: center;
+}
+
 .decision-dropdown{
     text-transform: uppercase;
 }
-.decision-btn{
-    /* text-transform: uppercase; */
-}
+
 .risk-dropdown{
     height: 50px;
     width: 150px;
     text-align: center;
+    left: 100px;
 
 }
 .submit{
