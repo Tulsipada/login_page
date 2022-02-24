@@ -8,7 +8,9 @@
 /* nav bar  */
 
 body{
+    background-color: rgba(221, 223, 196, 0.438);
 }
+
 
 .header{
     display: flex;
@@ -51,9 +53,10 @@ body{
   .body-container{
       display: flex;
       height: auto;
-      width:1350px;
       margin: 10px;
-      border: 5px solid red;
+      gap: 10px;
+      
+      /* border: 5px solid red; */
      
 
   }
@@ -61,11 +64,47 @@ body{
       float: left;
   }
 .start-btn{
-height: 410px;    
-border: 2px solid blue;
-display: inline-flexbox;
+    height: 410px;    
+    border: 2px solid rgb(150, 103, 103);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 2px;
+
 
 }
 .button-btn{
-    border: 1px solid red;
+    padding: 5px;
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.decision-container{
+    float: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid burlywood;
+    width: 500px;
+    
+}
+.decision-dropdown{
+    text-transform: uppercase;
+}
+.decision-btn{
+    /* text-transform: uppercase; */
+}
+.risk-dropdown{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+
+}
+.submit{
+    bottom: 2px;
+}
+.sumbit-btn{
+    padding: 10px 70px;
 }
